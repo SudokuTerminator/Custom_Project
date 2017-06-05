@@ -16,7 +16,7 @@ public class CRC {
 				count2 = 0;
 				while(count2 < 32){
 					c[count - count2] ^= g[count - count2];
-					++count;
+					++count2;
 				}
 			}
 			--count;
